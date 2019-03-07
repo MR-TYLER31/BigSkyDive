@@ -1,0 +1,342 @@
+body {
+  overflow-x: hidden;
+}
+
+h1,h2,h4,p {
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h5  {
+  text-align: center;
+}
+
+/* emphasizes the word Founder */
+em {
+  font-size: 16px;
+}
+
+
+/* NavBar */
+.navbar {
+  background: white;
+  border-bottom: 2px solid black;
+}
+
+#navbarResponsive a{
+  color: #11bff2;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#navbarResponsive a:hover {
+  color: #007ea8;
+}
+
+#navbar-brand {
+  color: #11bff2;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#navbar-brand:hover {
+  color: #007ea8;
+}
+
+
+/*  Main  and Carousel */
+
+#main {
+  font-family: 'Luckiest Guy', cursive;
+
+}
+
+
+.carousel-caption {
+font-size: 50px;
+margin: auto;
+width: 50%;
+text-align: center;
+top: 20%;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px black;
+}
+
+/* About */
+#about {
+  background: #f7f7f7;
+  padding: 40px 0;
+}
+
+#about h2 {
+  color: #11bff2;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#about  p {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* styles the founder div */
+#founder {
+  background: #2d404e;
+  padding: 40px 20px;
+  color: #f7f7f7;
+}
+
+
+/* Book */
+#book {
+  background: #f7f7f7;
+  padding: 70px 40px;
+}
+
+#book {
+  color: #11bff2;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.panel-heading{
+  background: #11bff2;
+  color: white;
+  height: 100%;
+}
+
+.panel-body > img {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.details-list li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+
+.panel-footer {
+  background:  #11bff2;
+  margin: 0 0 20px 0;
+  color: white;
+}
+
+.btn-default {
+  background: white;
+  color:  #11bff2;
+  margin-bottom: 10px;
+}
+
+.btn-default:hover {
+  background: #f7f7f7;
+  color:
+}
+
+/* Certified */
+#certified {
+  background: url('images/img11.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content-holder {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  background: rgba(204, 204, 204, 0.5);
+  color: #eff2f7;
+  height: 400px;
+}
+
+#gear {
+ background: #fcfcfc;
+ padding: 80px 30px;
+ color: #11bff2;
+ font-family: 'Luckiest Guy', cursive;
+}
+
+#box1, #box2, #box3, #box4 {
+  margin: 10px;
+  padding: 10px;
+  background: white;
+}
+
+#goggles {
+  margin-top: 47px;
+}
+
+#box1:hover, #box2:hover, #box3:hover, #box4:hover {
+box-shadow: 2px 2px 5px 2px #d7dae0;
+}
+
+
+
+#product-btn{
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #11bff2;
+}
+
+#events {
+  background: #fcfcfc;
+  padding: 30px;
+  color: #11bff2;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#newsletter {
+  background:  #11bff2;
+  padding: 20px 0;
+  margin: 30px 0;
+  color: #11bff2;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#newsletter h3 {
+  text-align: center;
+  color: white;
+}
+
+  #input-email {
+  margin: auto;
+  width: 50%;
+}
+
+.post-classic-time {
+    position: absolute;
+    padding: 2px 5px 8px;
+    text-align: center;
+    left: 15px;
+    top: 0;
+    min-width: 80px;
+    color: #29293a;
+    background: white;
+    border: 1px solid #11bff2;
+}
+
+.flex-center {
+  margin:auto;
+  display: flex;
+  justify-content: center;
+}
+
+    #news-btn{
+      border-radius: 0;
+      background: white;
+      color:  black;
+    }
+
+
+#photos img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.page-item {
+  margin: 0;
+}
+
+/* contact page */
+#contact-header{
+  background: #11bff2;
+  color: white;
+  padding: 30px 0;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+
+
+#contact-content {
+padding: 50px 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+#btn-submit {
+  display: inline-block;
+  width: 100%;
+  background: #11bff2;
+  color: white;
+}
+
+.google-maps {
+       position: relative;
+       padding-bottom: 75%; // This is the aspect ratio
+       height: 0;
+       overflow: hidden;
+   }
+   .google-maps iframe {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100% !important;
+       height: 100% !important;
+   }
+
+
+footer{
+  background:url("http://longwallpapers.com/Desktop-Wallpaper/sky-wallpaper-1080p-For-Desktop-Wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.layer {
+  position: relative;
+  background: rgba(204, 204, 204, 0.7);
+  }
+
+.footer-header {
+  text-align: center;
+  padding: 30px 0 40px 0;
+  display: block;
+}
+
+.footer-header h3 {
+  font-size: 60px;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  text-shadow: 2px 4px #11bff2;
+}
+
+#footer-text li {
+  list-style-type: none;
+  padding: 3px;
+  margin-left: 70px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+#footer-logo {
+  margin-left: 80px;
+}
+
+#social-icons {
+color: #11bff2;
+list-style-type: none;
+}
+
+#social-icons li {
+  padding: 15px;
+  margin: 8px 0 0 20px;
+  background: white;
+  border-radius: 100%;
+  width: 20%;
+  height: 15%;
+  text-align: center;
+}
+
+#social-icons li:hover {
+  background: #c5c8c9;
+  color: #11bff2;
+}

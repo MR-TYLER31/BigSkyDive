@@ -45,21 +45,27 @@ em {
 }
 
 
-/*  Main  and Carousel */
+#home {
+  background: url('../images/img3.jpg');
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
 
-#main {
+#home h1 {
+font-family: 'Luckiest Guy', cursive;
+color: white;
+margin-top: 15%;
+text-align: right;
+}
+
+.lead {
   font-family: 'Luckiest Guy', cursive;
-
+  color: white;
+  text-align: right;
 }
 
 
-.carousel-caption {
-font-size: 50px;
-margin: auto;
-width: 50%;
-text-align: center;
-top: 20%;
-}
 
 .text-shadow {
   text-shadow: 2px 2px black;
@@ -147,7 +153,7 @@ top: 20%;
 }
 
 .content-holder {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
   position: relative;
   background: rgba(204, 204, 204, 0.5);
   color: #eff2f7;
